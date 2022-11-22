@@ -92,9 +92,7 @@ public class UserDaoHibernateImpl implements UserDao {
             for (Object user : userList) {
                 System.out.println(user);
             }
-
             return userList;
-
         }
 
     }

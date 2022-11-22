@@ -9,7 +9,6 @@ import java.sql.*;
 
 public class Util {
     // реализуйте настройку соеденения с БД
-
     public static SessionFactory getFactory() {
 
         SessionFactory factory = new Configuration().configure()
